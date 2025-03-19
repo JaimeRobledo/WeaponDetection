@@ -1,0 +1,13 @@
+train: C:/Universidad_3/InteligenciaArtificial/Proyecto_final/roboflow3/train/images
+val: C:/Universidad_3/InteligenciaArtificial/Proyecto_final/roboflow3/valid/images
+test: C:/Universidad_3/InteligenciaArtificial/Proyecto_final/roboflow3/test/images
+
+nc: 3
+names: ['0', '1', '2']
+
+roboflow:
+  workspace: myworkspace-jzcyb
+  project: handgun-person-rifle
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/myworkspace-jzcyb/handgun-person-rifle/dataset/2
